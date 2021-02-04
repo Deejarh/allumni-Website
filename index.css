@@ -1,4 +1,4 @@
-* {
+/*  * {
   padding: 0;
   margin: 0;
   text-decoration: none;
@@ -17,13 +17,13 @@ body {
     90deg,
     rgba(182, 132, 51, 1) 10%,
     rgb(224, 240, 241) 80%
-  ); */
+  ); 
   margin-left: 0px;
   font-family: "Bree Serif", serif;
 }
 nav {
   background-color: rgb(79, 170, 56);
-  height: 80px;
+  height: 90px;
   width: 100%;
 
   position: fixed;
@@ -31,8 +31,8 @@ nav {
 }
 label.logo {
   color: rgb(251, 242, 242);
-  font-size: 35px;
-  line-height: 80px;
+  font-size: 1.3em;
+  
   padding: 0 100px;
   font-weight: lighter;
 }
@@ -154,39 +154,10 @@ section > h1 {
 }
 
 
-.footer {
-  position: fixed;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-  display: flex;
-  flex-direction: column;
-  height: 70px;
-  background-color: rgb(67, 218, 30);
-  width: 100%;
-  align-items: center;
-  justify-content: center;
-  margin-top: 30px;
-  border-top: 1px solid rgb(17, 71, 17);
-  padding-top: 20px;
-  color: rgb(17, 71, 17);
-}
-a.fblink {
-  text-decoration: none;
-  font-size: larger;
-  font-weight: bold;
-  color: blue;
-  height: 10px;
-  width: 20px;
-}
-a.fblink:hover {
-  color: rgb(17, 71, 17);
-  padding: 3px;
-  color: rgb(240, 149, 52);
-}
+
 div.row {
   display: flex;
-  width: 1000px;
+  width: 100%;
   margin: 0 auto;
   justify-content: space-around;
   align-items: center;
@@ -200,7 +171,7 @@ div.row {
   padding: 0 10px;
 }
 
-/* Display the columns below each other instead of side by side on small screens */
+/* Display the columns below each other instead of side by side on small screens 
 @media screen and (max-width: 650px) {
   .column {
     width: 100%;
@@ -208,12 +179,12 @@ div.row {
   }
 }
 
-/* Add some shadows to create a card effect */
+/* Add some shadows to create a card effect 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-/* Some left and right padding inside the container */
+/* Some left and right padding inside the container 
 .container {
   padding: 0 16px;
 }
@@ -229,3 +200,5 @@ div > h2 {
   color: #173527;
   font-weight: 400;
 }
+
+  */
