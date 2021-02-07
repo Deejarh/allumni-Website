@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 body {
-  min-width: 400px;
+  min-width: 100%;
   min-height: flex;
   margin-top: 0px;
   background-color: rgb(
@@ -122,6 +122,13 @@ a:hover {
   font-size: 40px;
   color: #1a774d;
 }
+.motto1 {
+  display: grid;
+  row-gap: 80px;
+  margin-left: 80px;
+  font-size: 40px;
+  color: #1a774d;
+}
 #about {
   display: flex;
   justify-content: center;
@@ -170,8 +177,7 @@ div.row {
   margin-bottom: 25px;
   padding: 0 10px;
 }
-
-/* Display the columns below each other instead of side by side on small screens 
+ 
 @media screen and (max-width: 650px) {
   .column {
     width: 100%;
@@ -179,12 +185,10 @@ div.row {
   }
 }
 
-/* Add some shadows to create a card effect 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
-
-/* Some left and right padding inside the container 
+ 
 .container {
   padding: 0 16px;
 }
@@ -201,4 +205,50 @@ div > h2 {
   font-weight: 400;
 }
 
+table {
+  border-collapse: collapse;
+  width: 70%;
+}
+th, td {
+  padding: 0.25rem;
+  text-align: left;
+  border: 1px solid #ccc;
+}
+tbody tr:nth-child(odd) {
+  background: gray;
+}
+
+.index_text{
+	float: left;
+	position: relative;
+	left: 10em;
+	right: 800em;
+}
+
+#index_text{
+	float: left;
+	position: relative;
+	left: 10em;
+	right: 800em;
+}
+article>p{
+	float: left;
+	position: relative;
+	left: 10em;
+	right: 800em;
+	} 
+	@media (max-width: 858px){
+		.index_text{
+	float: left;
+	position: relative;
+	left: 10em;
+	right: 800em;
+}
+#index_text{
+	float: left;
+	position: relative;
+	left: 10em;
+	right: 800em;
+}
+		} 
   */
